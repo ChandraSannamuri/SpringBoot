@@ -1,0 +1,353 @@
+{
+  "wayang-hardware-foam-card": {
+    "CARD_NAMING": {
+      "CARD_MANUFACTURER": {
+        "value": "Nokia"
+      },
+      "CARD_NAME": {
+        "value": "10G Optical Transceiver SFP+"
+      },
+      "CARD_MODEL": {
+        "value": "10GBase-LR"
+      },
+      "CARD_VERSION": {
+        "value": "(N/A)"
+      }
+    },
+    "CARD_LOGICAL_ATTRIBUTES": {
+      "CARD_STATUS": {
+        "value": "Current"
+      },
+      "PHYSICAL_MODELLING_REQUIRED": {
+        "value": "Y"
+      },
+      "CAN_BE_GHOST": {
+        "value": "N"
+      },
+      "TX_BEARER_FLAG": {
+        "value": "Y"
+      },
+      "DCN_FLAG": {
+        "value": "N"
+      },
+      "NO_TS_PORTS": {
+        "value": ""
+      },
+      "STARTING_PORT_NO": {
+        "value": ""
+      },
+      "AAS_PORT_TYPE": {
+        "value": ""
+      },
+      "PROTECTION_TYPES": {
+        "leafList": [
+          {
+            "value": ""
+          }
+        ]
+      },
+      "PRICE_REQUIRED": {
+        "value": "Y"
+      },
+      "SALEABLE_ENTITY_DETAILS": {
+        "valueList": [
+          {
+            "SALEABLE_ENTITY_CODE": {
+              "value": ""
+            },
+            "SALEABLE_ENTITY_DESCRIPTION": {
+              "value": ""
+            },
+            "CARD_WINDOW_TYPE": {
+              "value": ""
+            }
+          },
+          {
+            "SALEABLE_ENTITY_CODE": {
+              "value": "3HE09327AA"
+            },
+            "SALEABLE_ENTITY_DESCRIPTION": {
+              "value": "Dual fibre Working, 10Gbit/s, Single-mode fibre, 1310nm, 10km"
+            },
+            "CARD_WINDOW_TYPE": {
+              "value": "LR"
+            }
+          }
+        ]
+      }
+    },
+    "CARD_PHYSICAL_ATTRIBUTES": {
+      "CARD_TYPE": {
+        "leafList": [
+          {
+            "value": ""
+          },
+          {},
+          {
+            "value": "Module-Card"
+          }
+        ]
+      },
+      "IS_ADVA": {
+        "value": "N"
+      },
+      "IS_FOR_LIMS": {
+        "value": "N"
+      },
+      "IS_BULK_CONNECTION_ENABLED": {
+        "value": "N"
+      },
+      "HAS_TRANSMISSION_TYPE": {
+        "value": "N"
+      },
+      "CARD_TRANSMISSION_TYPE": {
+        "value": ""
+      },
+      "DEFAULT_TRANSMISSION_TYPE": {
+        "value": ""
+      },
+      "DEFAULT_SUB_CARDS": {
+        "value": "0"
+      },
+      "START_SLOT_LABEL": {
+        "value": "0"
+      }
+    },
+    "CARD_PHYSICAL_LAYOUT": {
+      "NO_OF_ROWS": {
+        "value": ""
+      },
+      "HAS_HORIZONTAL_SUB_CARDS": {
+        "value": "N"
+      },
+      "HAS_SUB_CARD_LEFT_TO_RIGHT": {
+        "value": "N"
+      },
+      "HI_PORT_START": {
+        "value": "1"
+      },
+      "LO_PORT_START": {
+        "value": "1"
+      },
+      "CARD_HEIGHT": {
+        "value": "1"
+      },
+      "ROW_POSITIONING": {
+        "valueList": [
+          {
+            "ROW_NUMBER": {
+              "value": ""
+            },
+            "SLOTS_IN_ROW": {
+              "value": ""
+            },
+            "START_SLOT_NUMBER": {
+              "value": ""
+            }
+          }
+        ]
+      }
+    },
+    "PORTS": {
+      "PORT_ATTRIBUTES": {
+        "valueList": [
+          {
+            "NUMBER_OF_PORTS": {
+              "value": ""
+            },
+            "SIGNAL_SWITCHABLE": {
+              "value": ""
+            },
+            "POTENTIAL_SIGNAL_TYPES": {
+              "leafList": [
+                {
+                  "value": ""
+                }
+              ]
+            },
+            "DEFAULT_SIGNAL_TYPE": {
+              "value": ""
+            },
+            "PORT_DIRECTION": {
+              "value": ""
+            },
+            "IGNORE_CONNECTIVITY_METADATA": {
+              "value": ""
+            },
+            "TRANSMISSION_MEDIA": {
+              "value": ""
+            },
+            "PORT_PROTECTION_TYPES": {
+              "leafList": [
+                {
+                  "value": ""
+                }
+              ]
+            },
+            "PORT_CONNECTOR_TYPE": {
+              "leafList": [
+                {
+                  "value": ""
+                }
+              ]
+            },
+            "PORT_DEFAULT_CONNECTOR_TYPE": {
+              "value": ""
+            },
+            "OPTICAL_SPECIFICATIONS": {
+              "valueList": [
+                {
+                  "WINDOW_TYPE": {
+                    "value": ""
+                  },
+                  "SUPPORTS_SINGLE_FIBRE_WORKING": {
+                    "value": ""
+                  },
+                  "SUPPORTS_DUAL_FIBRE_WORKING": {
+                    "value": ""
+                  },
+                  "PORT_WAVELENGTHS": {
+                    "leafList": [
+                      {
+                        "value": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "NUMBER_OF_PORTS": {
+              "value": "1"
+            },
+            "SIGNAL_SWITCHABLE": {
+              "value": "N"
+            },
+            "POTENTIAL_SIGNAL_TYPES": {
+              "leafList": [
+                {
+                  "value": ""
+                },
+                {
+                  "value": "10GigE"
+                },
+                {
+                  "value": "FastE"
+                }
+              ]
+            },
+            "DEFAULT_SIGNAL_TYPE": {
+              "value": "10GigE"
+            },
+            "PORT_DIRECTION": {
+              "value": "Unidirectional"
+            },
+            "IGNORE_CONNECTIVITY_METADATA": {
+              "value": "Y"
+            },
+            "TRANSMISSION_MEDIA": {
+              "value": "Optical"
+            },
+            "PORT_PROTECTION_TYPES": {
+              "leafList": [
+                {
+                  "value": ""
+                },
+                {
+                  "value": "None"
+                }
+              ]
+            },
+            "PORT_CONNECTOR_TYPE": {
+              "leafList": [
+                {
+                  "value": ""
+                }
+              ]
+            },
+            "PORT_DEFAULT_CONNECTOR_TYPE": {
+              "value": ""
+            },
+            "OPTICAL_SPECIFICATIONS": {
+              "valueList": [
+                {
+                  "WINDOW_TYPE": {
+                    "value": ""
+                  },
+                  "SUPPORTS_SINGLE_FIBRE_WORKING": {
+                    "value": ""
+                  },
+                  "SUPPORTS_DUAL_FIBRE_WORKING": {
+                    "value": ""
+                  },
+                  "PORT_WAVELENGTHS": {
+                    "leafList": [
+                      {
+                        "value": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "WINDOW_TYPE": {
+                    "value": "LR"
+                  },
+                  "SUPPORTS_SINGLE_FIBRE_WORKING": {
+                    "value": "Y"
+                  },
+                  "SUPPORTS_DUAL_FIBRE_WORKING": {
+                    "value": "Y"
+                  },
+                  "PORT_WAVELENGTHS": {
+                    "leafList": [
+                      {
+                        "value": ""
+                      },
+                      {
+                        "value": "1310 nm"
+                      },
+                      {
+                        "value": "10km"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "includes-child-type": {
+      "valueList": [
+        {
+          "class": {
+            "value": ""
+          },
+          "parent-rel-pos": {
+            "value": ""
+          },
+          "permitted-child-type": {
+            "valueList": [
+              {
+                "COMPONENT_NAME": {
+                  "value": ""
+                },
+                "MANUFACTURER": {
+                  "value": ""
+                },
+                "MODEL": {
+                  "value": ""
+                },
+                "VERSION": {
+                  "value": ""
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
